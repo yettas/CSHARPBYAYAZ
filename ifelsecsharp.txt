@@ -1,0 +1,35 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace conditionals
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+           // Veriler
+            var n1 = 25;
+            
+            
+            // Şart Blokları
+            if (n1==20)
+            {
+                Console.WriteLine("Number is 20");
+            }
+
+            else
+            {
+                Console.WriteLine("Number is Not 20 Number is {0}",n1);
+            }
+
+
+
+
+            Console.ReadLine();
+        }
+    }
+}
